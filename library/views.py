@@ -20,6 +20,7 @@ def page_return(request):
         admin.site.each_context(request),
         title='还书1111',
     )
+    print('111')
 
     return render(request, 'library/return.html', context)
 
